@@ -41,7 +41,7 @@ jobs:
           node-version-file: "package.json"
           cache: "pnpm"
       - name: Build Slide
-        run: pnpm build
+        run: pnpm build --base /${{github.event.repository.name}}/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
