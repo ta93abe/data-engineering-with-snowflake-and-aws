@@ -26,6 +26,10 @@ seoMeta:
   # or generate one from the first slide if not found.
   ogImage: auto
   # ogImage: https://cover.sli.dev
+# router base for GitHub Pages deployment
+routerMode: hash
+# base path for deployment
+base: /data-engineering-with-snowflake-and-aws/
 ---
 
 # Welcome to Slidev

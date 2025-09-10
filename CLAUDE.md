@@ -50,3 +50,16 @@ This project uses pnpm with workspace configuration. The `pnpm-workspace.yaml` s
 - Node.js 22.19.0 (managed by Volta)
 - TypeScript support throughout
 - Playwright for testing capabilities
+
+## Deployment
+
+### GitHub Pages Configuration
+- Configured for deployment at subpath: `/data-engineering-with-snowflake-and-aws/`
+- Uses hash router mode for GitHub Pages compatibility
+- Base path set in `slides.md` frontmatter: `base: /data-engineering-with-snowflake-and-aws/`
+- GitHub Actions workflow in `.github/workflows/deploy.yml` handles automatic deployment
+
+### Custom Domain Setup
+- Project is configured to be hosted at `slides.example.com/data-engineering-with-snowflake-and-aws`
+- Router mode set to `hash` for static hosting compatibility
+- Build artifacts are deployed to `dist/` directory via GitHub Actions
