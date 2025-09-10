@@ -15,5 +15,9 @@
   },
   "volta": {
     "node": "22.19.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
   }
 }
