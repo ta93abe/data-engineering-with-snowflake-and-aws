@@ -1,3 +1,13 @@
 {
-  "cSpell.words": ["OLAP", "OLTP", "vite"]
+  "cSpell.words": [
+    "Airbyte",
+    "AISQL",
+    "Dagster",
+    "Fivetran",
+    "Kestra",
+    "OLAP",
+    "OLTP",
+    "Snowpark",
+    "vite"
+  ]
 }
