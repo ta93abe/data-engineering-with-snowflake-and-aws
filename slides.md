@@ -1,29 +1,17 @@
 ---
-# You can also start simply with 'default'
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://images.unsplash.com/flagged/photo-1576781052958-061cf393473a?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2834&q=80
 title: Snowflake と AWS で始めるデータエンジニアリング
 info: |
   ## データエンジニアリング with Snowflake & AWS
   現代的なクラウドデータプラットフォームの構築手法
-# apply unocss classes to the current slide
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-# open graph
 seoMeta:
-  # By default, Slidev will use ./og-image.png if it exists,
-  # or generate one from the first slide if not found.
   ogImage: auto
-  # ogImage: https://cover.sli.dev
-# router base for GitHub Pages deployment
 routerMode: hash
 ---
 
