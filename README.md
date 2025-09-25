@@ -1,11 +1,35 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Snowflake と AWS で始めるデータエンジニアリング
 
-To start the slide show:
+## OLTP と OLAP
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## データエンジニアというお仕事
 
-Edit the [slides.md](./slides.md) to see the changes.
+## データエンジニアの道具
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+### SQL
+
+### Python
+
+## なぜ Snowflake を使いたくなるのか
+
+### DB Engine
+
+## S3 がやっぱり大切
+
+## 機械学習のプラットフォームを選ぶ
+
+### AWS でやる。
+
+### Snowflake でやる。
+
+## 一応生成AI
+
+### Snowflake Intelligence
+
+## 中央集権データ基盤と分散データ基盤
+
+### Iceberg
+
+### Data Sharing
+
+### データメッシュ
