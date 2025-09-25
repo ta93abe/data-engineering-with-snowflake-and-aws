@@ -3,21 +3,21 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --download",
     "dev": "slidev --open",
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^52.1.0",
+    "@slidev/cli": "^52.2.4",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.18"
+    "vue": "^3.5.22"
   },
   "volta": {
-    "node": "22.19.0"
+    "node": "22.20.0"
   },
   "devDependencies": {
-    "@types/node": "^24.3.1",
-    "playwright-chromium": "^1.55.0"
+    "@types/node": "^24.5.2",
+    "playwright-chromium": "^1.55.1"
   }
 }
