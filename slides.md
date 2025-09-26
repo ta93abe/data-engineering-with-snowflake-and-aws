@@ -38,15 +38,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 src: ./pages/self-intro.md
 ---
+
 ---
 src: ./pages/data-ingestion-overview.md
 ---
+
 ---
 src: ./pages/data-ingestion-definition.md
 ---
+
 ---
 src: ./pages/ingestion-patterns.md
 ---
+
 ---
 src: ./pages/etl-vs-elt.md
 ---

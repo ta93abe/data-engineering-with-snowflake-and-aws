@@ -1,27 +1,27 @@
 ---
 layout: two-cols
 ---
+
 <template v-slot:default>
 
 # 自己紹介
 
-## 阿部 拓海（あべ たくみ）
+## 阿部 拓海
 
 **株式会社USEN ICT Solutions**
-**データエンジニア / クラウドアーキテクト**
 
-### 経歴・専門分野
+**経営管理本部システム統括部DX部DX課**
 
-- データエンジニアリング・分析基盤設計
-- AWS・Snowflakeを活用したクラウド基盤構築
-- ETL/ELTパイプライン開発・運用
-- データ品質管理・ガバナンス
+**データエンジニア**
 
-### 主要技術スタック
 
-- **クラウド**: AWS, Snowflake
-- **言語**: Python, SQL
-- **ツール**: dbt, Airflow
+## 好きなもの
+
+- Snowflake
+- dbt
+
+
+10月末で退職です👏
 </template>
 <template v-slot:right>
 <img src="/profile.jpg" class="align-right" />
