@@ -9,6 +9,9 @@
     "OLTP",
     "Snowpark",
     "Snowpipe",
+    "USEN",
     "vite"
-  ]
+  ],
+  "slidev.port": 3030,
+  "editor.formatOnSave": false
 }
