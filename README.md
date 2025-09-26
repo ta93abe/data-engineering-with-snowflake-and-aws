@@ -1,8 +1,14 @@
 # Snowflake と AWS で始めるデータエンジニアリング
 
+## 自己紹介
+
 ## OLTP と OLAP
 
+世の中には2つのデータベースがある。
+
 ## データエンジニアというお仕事
+
+現代のフルスタックエンジニアといってもいいのでは(ポジショントーク気味)
 
 https://komi.theletter.jp/posts/e4790bf0-fb84-11ee-9b01-3da9ec89ce20
 
@@ -18,11 +24,16 @@ https://komi.theletter.jp/posts/e4790bf0-fb84-11ee-9b01-3da9ec89ce20
 
 ### Snowflake Marketplace
 
+### Snow CLI
+
 ### Streamlit in Snowflake
 
-### Snowpark Container Services
+Python で Web アプリが書ける。
+Snowflake 内でデプロイできるので、認証どうしよう問題がない。
 
-### Snow CLI
+### Snowflake Notebook
+
+### Snowpark Container Services
 
 ### DB Engine
 
@@ -36,15 +47,11 @@ https://komi.theletter.jp/posts/e4790bf0-fb84-11ee-9b01-3da9ec89ce20
 
 ### Managed Services
 
-#### Fivetran
-
-#### TROCCO
-
-#### Airbyte
-
-#### dlt
-
-#### CData
+- Fivetran
+- TROCCO
+- Airbyte
+- dlt
+- CData
 
 ## dbt については語りたい
 
@@ -92,15 +99,17 @@ https://docs.aws.amazon.com/ja_jp/mwaa/latest/userguide/samples-dbt.html
 
 ### Managed Services
 
-#### Airflow
-
-#### TROCCO
-
-#### Dagster
-
-#### Kestra
+- Airflow
+- Prefect
+- TROCCO
+- Dagster
+- Kestra
 
 ## 中央集権データ基盤と分散データ基盤
+
+### とりあえず Terraform
+
+### Snowflake Data Project なんてのもある
 
 ### Iceberg
 
