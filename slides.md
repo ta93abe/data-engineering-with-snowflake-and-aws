@@ -10,6 +10,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+favicon: https://github.com/ta93abe.png
 seoMeta:
   ogImage: auto
 routerMode: hash
@@ -40,17 +41,41 @@ src: ./pages/self-intro.md
 ---
 
 ---
-src: ./pages/data-ingestion-overview.md
+src: ./pages/oltp-olap.md
 ---
 
 ---
-src: ./pages/data-ingestion-definition.md
+src: ./pages/data-engineer.md
 ---
 
 ---
-src: ./pages/ingestion-patterns.md
+src: ./pages/tools.md
 ---
 
 ---
-src: ./pages/etl-vs-elt.md
+src: ./pages/snowflake-features.md
+---
+
+---
+src: ./pages/data-ingestion-new.md
+---
+
+---
+src: ./pages/dbt.md
+---
+
+---
+src: ./pages/workflow-orchestration.md
+---
+
+---
+src: ./pages/data-architecture.md
+---
+
+---
+src: ./pages/machine-learning.md
+---
+
+---
+src: ./pages/ai-features.md
 ---
