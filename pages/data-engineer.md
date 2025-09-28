@@ -18,5 +18,5 @@ layout: section
 </v-clicks>
 
 <div v-click class="mt-8">
-詳しくは：<a href="https://komi.theletter.jp/posts/e4790bf0-fb84-11ee-9b01-3da9ec89ce20" target="_blank">記事リンク</a>
+<a href="https://komi.theletter.jp/posts/e4790bf0-fb84-11ee-9b01-3da9ec89ce20" target="_blank">今の時代は多分データエンジニアが一番採用が難しい</a>
 </div>
