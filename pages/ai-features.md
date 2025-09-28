@@ -9,13 +9,13 @@ layout: section
 
 ## AISQL
 
-<v-clicks>
+
 
 - 自然言語でSQLクエリ生成
 - データ探索の高速化
 - SQLの学習支援
 
-</v-clicks>
+
 
 ---
 
@@ -23,12 +23,12 @@ layout: section
 
 ### Semantic View
 
-<v-clicks>
+
 
 - ビジネス定義の標準化
 - AIによる自動メトリクス生成
 
-</v-clicks>
+
 
 <div v-click class="mt-4">
 参考：<a href="https://www.snowflake.com/ja/blog/open-semantic-interchange-ai-standard/" target="_blank">Open Semantic Interchange</a>

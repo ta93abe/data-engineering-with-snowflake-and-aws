@@ -29,10 +29,8 @@ layout: two-cols
 
 ## Python
 
-<v-clicks>
+
 
 - データ処理ライブラリが豊富
-- 機械学習エコシステム
+- 機械学習・AI
 - 自動化・スクリプト作成
-
-</v-clicks>
