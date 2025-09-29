@@ -16,16 +16,14 @@ layout: two-cols
 
 新卒から5年目
 
-
 ## 好きなもの
 
 - Snowflake
 - dbt
 
-
 10月末で退職です👏
 </template>
 
 <template v-slot:right>
-<img src="/profile.jpg" class="align-right" />
+    <img src="/profile.jpg" class="align-right" />
 </template>
