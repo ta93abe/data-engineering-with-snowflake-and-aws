@@ -7,9 +7,7 @@ layout: section
 
 ---
 
-## 世の中には2つのデータベースがある
-
-
+## 世の中には2つのデータベースがある(+α)
 
 - **OLTP (Online Transaction Processing)**
   - 日常的な取引処理
