@@ -61,7 +61,7 @@ src: ./pages/snowflake-features.md
 ---
 
 ---
-src: ./pages/data-ingestion-new.md
+src: ./pages/data-ingestion.md
 ---
 
 ---
@@ -82,4 +82,8 @@ src: ./pages/machine-learning.md
 
 ---
 src: ./pages/ai-features.md
+---
+
+---
+src: ./pages/summary.md
 ---
