@@ -49,6 +49,10 @@ src: ./pages/data-engineer.md
 ---
 
 ---
+src: ./pages/modern-data-stack.md
+---
+
+---
 src: ./pages/tools.md
 ---
 
