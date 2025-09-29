@@ -9,7 +9,6 @@ layout: section
 layout: two-cols
 ---
 
-
 <template v-slot:default>
 
 ## SQL
@@ -28,8 +27,6 @@ layout: two-cols
 ---
 
 ## Python
-
-
 
 - データ処理ライブラリが豊富
 - 機械学習・AI
