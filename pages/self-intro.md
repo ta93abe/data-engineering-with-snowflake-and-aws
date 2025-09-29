@@ -14,6 +14,8 @@ layout: two-cols
 
 **データエンジニア**
 
+新卒から5年目
+
 
 ## 好きなもの
 
@@ -23,6 +25,7 @@ layout: two-cols
 
 10月末で退職です👏
 </template>
+
 <template v-slot:right>
 <img src="/profile.jpg" class="align-right" />
 </template>
