@@ -11,6 +11,7 @@
     "OLTP",
     "Snowpark",
     "Snowpipe",
+    "swtt",
     "Teradata",
     "USEN",
     "vite"

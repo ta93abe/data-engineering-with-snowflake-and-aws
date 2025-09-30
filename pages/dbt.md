@@ -6,6 +6,8 @@ layout: section
 # dbt について語りたい
 
 ---
+layout: center
+---
 
 ## データエンジニアリングの世界に<br>ソフトウェアエンジニアリングがやってきた
 
@@ -13,23 +15,21 @@ layout: section
 
 ### Version Control
 
-
-
 - Git で dbt のプロジェクトを管理
 - Snowflake のワークシートは散らかりがち
 - データ変換のロジック、ドキュメントの一元管理
 
-
+<style>
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
 
 ---
 
 ### Testing
 
----
-
 #### Generic Test
-
-
 
 - YAML にサクッと書ける
 - 一意性、NULL チェック、参照整合性
@@ -48,7 +48,15 @@ models:
               values: ['active', 'inactive']
 ```
 
+<style>
+h4 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
+
+### Testing
 
 #### Singular Test
 
@@ -73,7 +81,20 @@ from (
 where abs(order_total - calculated_total) > 0.01
 ```
 
+<style>
+h4 {
+    margin-bottom: 1rem;
+}
+</style>
+
+<!-- このテストは 注文の合計金額の整合性 をチェックしています。 具体的には：
+orders テーブルに保存されている order_total（注文合計額）
+order_items テーブルから計算した calculated_total（各商品の数量×単価の合計）
+この2つの金額が一致しているかを検証します。 where abs(order_total - calculated_total) > 0.01 で、差が0.01以上ある不整合なレコードを抽出します。テストが成功する（= 不整合なデータが0件）ことで、データの信頼性が保証されます。 -->
+
 ---
+
+### Testing
 
 #### Unit Test
 
@@ -96,6 +117,12 @@ unit_tests:
         - {customer_id: 1, total_orders: 1, total_spent: 100.00}
 ```
 
+<style>
+h4 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
 
 ### CI/CD
@@ -107,6 +134,12 @@ dbt build --target prod
 - Git push → 自動テスト・デプロイ
 - 本番環境への安全なリリース
 
+<style>
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
 
 ### Documentation
@@ -116,3 +149,9 @@ dbt build --target prod
 - **リネージュ** - データの血統管理
 
 <img src="/dbt-docs.png" class="mx-auto" />
+
+<style>
+h3 {
+    margin-bottom: 1rem;
+}
+</style>

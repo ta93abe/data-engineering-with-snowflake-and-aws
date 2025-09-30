@@ -12,14 +12,14 @@ layout: section
 - Infrastructure as Code
 - 再現可能な環境構築
 - チームでの管理
+- Snowflake Provider もあるし、他のツールに関してもだいたい揃ってる
 
 ---
 
 ## Snowflake Data Project なんてのもある
 
 - Snowflakeリソースの管理
-- GitOpsワークフロー
-- エンタープライズ機能
+- Terraform と使い分けるはず
 
 ---
 
@@ -36,6 +36,7 @@ layout: section
 - 事実上の標準ストレージ
 - コスト効率
 - 耐久性・可用性
+- S3 Tables も期待大
 
 ---
 
@@ -44,11 +45,3 @@ layout: section
 - Snowflakeのキラー機能
 - データのコピー不要
 - リアルタイム共有
-
----
-
-## データメッシュ
-
-- ドメイン指向のデータアーキテクチャ
-- データの分散所有
-- セルフサービス分析基盤

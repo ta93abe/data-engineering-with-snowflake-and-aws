@@ -3,7 +3,7 @@ transition: slide-up
 layout: section
 ---
 
-# Data Ingestion
+# Data Ingestion / ELT
 
 ---
 
@@ -17,9 +17,11 @@ layout: section
 
 ## AWS Glue
 
-- フルマネージドETLサービス
-- Spark ベース
-- データカタログ機能
+- マネージドETLサービス
+- おもったよりいろんなことができる
+    - ジョブスケジューリング
+    - データカタログ
+    - データ変換
 
 ---
 

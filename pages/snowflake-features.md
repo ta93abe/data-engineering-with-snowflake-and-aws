@@ -6,9 +6,10 @@ layout: section
 # なぜ Snowflake を使いたくなるのか
 
 ---
-layout: iframe-right
-url: https://www.snowflake.com/ja/world-tour/tokyo/
+layout: two-cols
 ---
+
+<template v-slot:default>
 
 ## Snowflake と AWS の関係
 
@@ -16,10 +17,23 @@ url: https://www.snowflake.com/ja/world-tour/tokyo/
 - AWS は Snowflake のカンファレンスにスポンサーとして参加
 - Snowflake は AWS のサービスと連携可能
 
+</template>
+<template v-slot:right>
+
+<img src="/swtt-overview.png" alt="Snowflake World Tour Tokyo 2024" class="w-96 ml-4">
+<img src="/swtt-double-black-diamond.png" alt="Snowflake World Tour Tokyo 2024 Sponsors" class="w-96 ml-4">
+
+</template>
+
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
 layout: two-cols
 ---
-
 
 <template v-slot:default>
 <img src="/db-ranking.png" alt="DB Engine Ranking" class="w-84" />
