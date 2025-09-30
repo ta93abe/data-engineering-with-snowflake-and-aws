@@ -6,6 +6,13 @@ layout: section
 # まとめ
 
 ---
+layout: image
+image: /architecture.png
+backgroundSize: contain
+---
+
+
+---
 layout: center
 class: font-bold
 ---
