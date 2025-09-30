@@ -5,13 +5,21 @@ layout: section
 
 # Workflow Orchestration
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## 概論
 
 - データパイプラインのスケジューリング
-- 依存関係の管理
+- 依存関係の管理 (DAG)
 - エラーハンドリング・リトライ
+
+<!-- DAG とはノードが循環をせずに一方向の接続によってリンクされているグラフ -->
 
 ---
 
@@ -26,11 +34,6 @@ layout: section
 ## Amazon Managed Workflows for Apache Airflow
 
 - フルマネージドAirflow
-- dbtとの連携サンプル有り
-
-<div v-click class="mt-4">
-参考：<a href="https://docs.aws.amazon.com/ja_jp/mwaa/latest/userguide/samples-dbt.html" target="_blank">AWS dbt サンプル</a>
-</div>
 
 ---
 
@@ -39,13 +42,14 @@ layout: section
 - Snowflake ネイティブのスケジューラー
 - SQL でワークフロー定義
 - 他ツール不要のシンプルさ
+- 結構大変だと思う。
 
 ---
 
 ## Managed Services
 
 - **TROCCO** - データ統合プラットフォーム
-- **Airflow** - 最も有名なワークフローエンジン
+- **Apache Airflow** - 最も有名なワークフローエンジン
 - **Dagster** - データアセット中心の設計
 - **Prefect** - モダンなPythonワークフロー
 - **Kestra** - 宣言的ワークフロー

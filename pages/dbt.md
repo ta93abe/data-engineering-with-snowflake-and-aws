@@ -5,6 +5,12 @@ layout: section
 
 # dbt について語りたい
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 layout: center
 ---

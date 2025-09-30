@@ -5,6 +5,12 @@ layout: section
 
 # まとめ
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 layout: image
 image: /architecture.png

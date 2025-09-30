@@ -5,6 +5,12 @@ layout: section
 
 # 中央集権データ基盤と分散データ基盤
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## とりあえず Terraform

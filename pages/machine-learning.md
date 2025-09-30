@@ -5,6 +5,12 @@ layout: section
 
 # 機械学習のプラットフォームを選ぶ
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## AWS でやる
@@ -18,5 +24,8 @@ layout: section
 ## Snowflake でやる
 
 - Snowpark ML
-- データとモデルが同じ場所
+    - ANOMALY_DETECTION
+    - CLASSIFICATION
+    - FORECAST
+- データとモデルが同じ場所にある
 - SQLでの機械学習

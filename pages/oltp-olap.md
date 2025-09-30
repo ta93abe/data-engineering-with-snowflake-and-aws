@@ -5,6 +5,12 @@ layout: section
 
 # OLTP と OLAP
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## 世の中には2つのデータベースがある(+α)

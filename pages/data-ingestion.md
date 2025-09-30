@@ -5,11 +5,17 @@ layout: section
 
 # Data Ingestion / ELT
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## 概論
 
-- データを様々なソースから取得
+- データを様々なソースから取得 (E: Extract/L: Load/T: Transform)
 - バッチ vs リアルタイム (CDC)
 - 構造化 vs 非構造化データ
 

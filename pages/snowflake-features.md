@@ -5,6 +5,12 @@ layout: section
 
 # なぜ Snowflake を使いたくなるのか
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 layout: two-cols
 ---
@@ -14,6 +20,7 @@ layout: two-cols
 ## Snowflake と AWS の関係
 
 - Snowflake は AWS, Azure, Google Cloud のマルチクラウド対応
+    - アカウントを作るときにどこに作るか選べる
 - AWS は Snowflake のカンファレンスにスポンサーとして参加
 - Snowflake は AWS のサービスと連携可能
 
@@ -122,6 +129,7 @@ h2 {
 - Python で Web アプリが書ける
 - Snowflake 内でデプロイできる
 - 認証どうしよう問題がない
+- もちろん Snow CLI 越しにもデプロイ可能、Git でも管理できる
 
 <style>
 h2 {

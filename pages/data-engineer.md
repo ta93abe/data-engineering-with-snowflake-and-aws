@@ -5,6 +5,12 @@ layout: section
 
 # データエンジニアというお仕事
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## データエンジニアは現代のフルスタックエンジニア

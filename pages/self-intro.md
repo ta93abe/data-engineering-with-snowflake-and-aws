@@ -21,3 +21,9 @@ image: /profile.jpg
 - dbt
 
 10月末で退職です👏
+
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>

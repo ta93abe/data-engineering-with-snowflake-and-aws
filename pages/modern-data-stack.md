@@ -5,6 +5,12 @@ layout: section
 
 # Modern Data Stack
 
+<style>
+h1 {
+    color: #ffffff;
+}
+</style>
+
 ---
 
 ## モダンデータスタックとは
