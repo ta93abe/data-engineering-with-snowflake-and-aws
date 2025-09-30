@@ -129,6 +129,12 @@ h4 {
 }
 </style>
 
+<!-- given: テスト用の入力データを定義
+customersテーブルに顧客データ（ID: 1, メール: test@example.com）
+ordersテーブルに注文データ（注文ID: 1, 顧客ID: 1, 金額: 100.00）
+expect: 期待される出力結果
+customer_metricsモデルが「顧客ID: 1の注文数は1件、合計金額は100.00」を正しく計算できるか -->
+
 ---
 
 ### CI/CD
