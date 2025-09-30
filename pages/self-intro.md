@@ -17,6 +17,7 @@ image: /profile.jpg
 
 ## 好きなもの
 
+- Amazon CodeWhisperer (Fig のときから使っている)
 - Snowflake
 - dbt
 
