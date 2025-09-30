@@ -1,8 +1,7 @@
 ---
-layout: two-cols
+layout: image-right
+image: /profile.jpg
 ---
-
-<template v-slot:default>
 
 # 自己紹介
 
@@ -22,8 +21,3 @@ layout: two-cols
 - dbt
 
 10月末で退職です👏
-</template>
-
-<template v-slot:right>
-    <img src="/profile.jpg" class="align-right" />
-</template>
