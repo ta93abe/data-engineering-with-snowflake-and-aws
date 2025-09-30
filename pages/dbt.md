@@ -127,12 +127,16 @@ h4 {
 
 ### CI/CD
 
-```bash
-dbt build --target prod
-```
-
 - Git push → 自動テスト・デプロイ
 - 本番環境への安全なリリース
+- dbt profile で環境切り替え
+- dbt Cloud という SaaS を使うとサクッと作れる
+
+```bash
+dbt build --target prod
+dbt build --target dev
+dbt build --target ci
+```
 
 <style>
 h3 {
