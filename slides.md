@@ -41,6 +41,10 @@ src: ./pages/self-intro.md
 ---
 
 ---
+src: ./pages/presentation-objective.md
+---
+
+---
 src: ./pages/oltp-olap.md
 ---
 
