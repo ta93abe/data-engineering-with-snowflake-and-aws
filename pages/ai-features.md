@@ -41,7 +41,7 @@ where ai_filter(prompt('Find rows where the description indicates a positive sen
 ````
 
 <v-click>
-もはや黒魔術
+もはや黒魔術🪄
 </v-click>
 
 ---
