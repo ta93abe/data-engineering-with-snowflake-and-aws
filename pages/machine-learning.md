@@ -9,19 +9,13 @@ layout: section
 
 ## AWS でやる
 
-
-
 - SageMaker
 - 豊富なMLサービス群
 - スケーラブルなインフラ
 
-
-
 ---
 
 ## Snowflake でやる
-
-
 
 - Snowpark ML
 - データとモデルが同じ場所

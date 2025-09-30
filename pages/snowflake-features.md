@@ -16,8 +16,18 @@ url: https://www.snowflake.com/ja/world-tour/tokyo/
 - AWS は Snowflake のカンファレンスにスポンサーとして参加
 - Snowflake は AWS のサービスと連携可能
 
-
 ---
+layout: two-cols
+---
+
+
+<template v-slot:default>
+<img src="/db-ranking.png" alt="DB Engine Ranking" class="w-84" />
+</template>
+<template v-slot:right>
+<img src="/db-ranking-chart.png" alt="DB Engine Ranking Chart" class="w-84" />
+</template>
+
 
 ---
 layout: two-cols
@@ -54,12 +64,19 @@ h2 {
 ## Snow CLI
 
 - コマンドラインでの操作
-- Infrastructure as Code
 - CI/CDパイプラインとの統合
+- さまざまなオブジェクトが管理できる
+    - Snowflake Native Apps
+    - Snowflake Cortex
+    - Snowflake Git Integration
+    - Snowflake Notebook
+    - Snowflake Warehouse
+    - Snowflake Stage
+    - Snowpark
+    - Snowflake Container Services
+    - Streamlit in Snowflake
 
 <a href="Snowflake CLI" target="_blank">Snowflake CLI</a>
-
-<a href="https://github.com/snowflakedb/snowflake-cli" target="_blank">Snowflake CLI Repository</a>
 
 <style>
 h2 {
@@ -105,6 +122,7 @@ h2 {
 - Jupyter的な環境
 - Snowflake内で実行
 - データ分析・探索に最適
+- スケジュール実行も可能
 
 <style>
 h2 {
@@ -119,20 +137,6 @@ h2 {
 - コンテナベースのワークロード
 - 機械学習モデルのデプロイ
 - カスタムアプリケーションの実行
-
-<style>
-h2 {
-    margin-bottom: 1rem;
-}
-</style>
-
----
-
-## DB Engine
-
-- 分離されたコンピュートとストレージ
-- 自動スケーリング
-- ゼロメンテナンス
 
 <style>
 h2 {

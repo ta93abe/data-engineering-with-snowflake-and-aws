@@ -3,7 +3,7 @@ transition: slide-up
 layout: section
 ---
 
-# dbt については語りたい
+# dbt について語りたい
 
 ---
 
