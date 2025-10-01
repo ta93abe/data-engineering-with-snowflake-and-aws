@@ -3,7 +3,7 @@ transition: slide-up
 layout: section
 ---
 
-# なぜ Snowflake を<br>使いたくなるのか
+# なぜ <span style="color: #29B5E8;">Snowflake</span> を<br>使いたくなるのか
 
 <style>
 h1 {
