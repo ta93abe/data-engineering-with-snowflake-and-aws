@@ -51,3 +51,13 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+---
+layout: image-right
+image: /data-summit-overview.png
+backgroundSize: contain
+---
+
+## DATA SUMMIT 2025 が!!
+
+<img src="/data-summit-2025.png" alt="Data Summit 2025" class="w-48 mx-auto my-24">
