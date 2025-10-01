@@ -133,6 +133,8 @@ h2 {
 - 認証どうしよう問題がない
 - もちろん Snow CLI 越しにもデプロイ可能、Git でも管理できる
 
+<img src="/streamlit.png" class="mx-auto mt-12" />
+
 <style>
 h2 {
     margin-bottom: 1rem;
