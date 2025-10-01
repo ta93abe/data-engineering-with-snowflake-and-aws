@@ -5,6 +5,7 @@
     "COLNAME",
     "Dagster",
     "Fivetran",
+    "Flink",
     "HTAP",
     "Kestra",
     "MWAA",
@@ -15,6 +16,7 @@
     "Snowpipe",
     "swtt",
     "Teradata",
+    "Trino",
     "USEN",
     "vite"
   ],
