@@ -13,10 +13,15 @@ h1 {
 
 ---
 layout: image
-image: /architecture.png
+image: /chaos-map.png
 backgroundSize: contain
 ---
 
+---
+layout: image
+image: /architecture.png
+backgroundSize: contain
+---
 
 ---
 layout: center
