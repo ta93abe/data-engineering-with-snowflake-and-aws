@@ -145,25 +145,3 @@ h3 {
     margin-bottom: 1rem;
 }
 </style>
-
----
-
-## ユースケース別の選択
-
-| ワークロード | AWS | Snowflake |
-|------------|-----|-----------|
-| 構造化データの予測 | SageMaker | Snowpark ML ⭐ |
-| カスタムディープラーニング | SageMaker ⭐ | - |
-| LLM アプリケーション | Bedrock ⭐ | Cortex ⭐ |
-| 画像・動画分析 | Rekognition ⭐ | - |
-| SQL ベースの AI | - | Cortex ⭐ |
-| データ統合型 ML | - | Snowpark ML ⭐ |
-
-<style>
-h2 {
-    margin-bottom: 1rem;
-}
-h3 {
-    margin-bottom: 1rem;
-}
-</style>
