@@ -79,11 +79,7 @@ src: ./pages/data-architecture.md
 ---
 
 ---
-src: ./pages/machine-learning.md
----
-
----
-src: ./pages/ai-features.md
+src: ./pages/ai-and-ml.md
 ---
 
 ---
