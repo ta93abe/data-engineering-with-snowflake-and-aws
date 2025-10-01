@@ -3,7 +3,7 @@ transition: slide-up
 layout: section
 ---
 
-# データアーキテクチャを支える技術
+# データアーキテクチャを<br>支える技術
 
 <style>
 h1 {
