@@ -38,12 +38,12 @@ layout: center
 class: text-center
 ---
 
-# 終わり
+# おしまい
 
 <style>
 h1 {
   background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 30%, #146b8c 50%);
+  background-image: linear-gradient(20deg, #4EC5D4 30%, #146b8c 50%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
