@@ -27,3 +27,9 @@ h2 {
   margin-bottom: 1rem;
 }
 </style>
+
+---
+layout: image
+image: /chaos-map.png
+backgroundSize: contain
+---
