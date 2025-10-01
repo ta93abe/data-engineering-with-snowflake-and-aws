@@ -3,7 +3,7 @@ transition: slide-up
 layout: section
 ---
 
-# 中央集権データ基盤と分散データ基盤
+# データアーキテクチャを支える技術
 
 <style>
 h1 {
