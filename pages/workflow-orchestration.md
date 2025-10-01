@@ -60,6 +60,15 @@ h3 {
 - 他ツール不要のシンプルさ
 - 結構大変だと思う。
 
+<style>
+h2 {
+  margin-bottom: 1rem;
+}
+h3 {
+    margin-block: 1rem;
+}
+</style>
+
 ---
 
 ## Managed Services
@@ -69,3 +78,9 @@ h3 {
 - **Dagster** - データアセット中心の設計
 - **Prefect** - モダンなPythonワークフロー
 - **Kestra** - 宣言的ワークフロー
+
+<style>
+h2 {
+  margin-bottom: 1rem;
+}
+</style>
