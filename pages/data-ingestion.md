@@ -19,6 +19,12 @@ h1 {
 - バッチ vs リアルタイム (CDC)
 - 構造化 vs 非構造化データ
 
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
 
 ## AWS Glue
@@ -29,6 +35,12 @@ h1 {
     - データカタログ
     - データ変換
 
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+</style>
+
 ---
 
 ## Snowpipe
@@ -36,6 +48,12 @@ h1 {
 - Snowflakeのリアルタイムデータ取り込み
 - S3イベント連携
 - 自動的でスケーラブル
+
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+</style>
 
 ---
 
@@ -46,3 +64,9 @@ h1 {
 - **[Airbyte](https://airbyte.com/)** - オープンソース
 - **[dlt](https://dlthub.com/)** - Python開発者フレンドリー
 - **[CData](https://www.cdata.com/)** - 豊富なコネクタ
+
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+</style>
