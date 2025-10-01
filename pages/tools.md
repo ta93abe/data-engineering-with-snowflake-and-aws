@@ -17,7 +17,6 @@ image: https://i.redd.it/n412kvw9r9j91.png
 backgroundSize: contain
 ---
 
-
 ## SQL
 
 - データ変換の基本言語
