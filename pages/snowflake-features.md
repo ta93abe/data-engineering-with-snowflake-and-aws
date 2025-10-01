@@ -97,7 +97,7 @@ h2 {
     - Snowflake Container Services
     - Streamlit in Snowflake
 
-<a href="Snowflake CLI" target="_blank">Snowflake CLI</a>
+<a href="Snowflake CLI" target="_blank">Snowflake CLI | Snowflake Documentation</a>
 
 <style>
 h2 {
@@ -114,6 +114,8 @@ h2 {
     - 地理空間データ
     - 気象データ
 - データ共有の仕組み
+- Internal Marketplace
+    - 限定的なアカウント同士でデータやアプリケーションを共有できる
 
 <style>
 h2 {
@@ -145,6 +147,8 @@ h2 {
 - Snowflake内で実行
 - データ分析・探索に最適
 - スケジュール実行も可能
+- Python, SQL, Markdown が使える
+- Streamlit も動く
 
 <style>
 h2 {
