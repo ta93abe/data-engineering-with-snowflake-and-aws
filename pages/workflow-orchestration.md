@@ -23,21 +23,37 @@ h1 {
 
 ---
 
-## Step Functions
 
-- AWSのサーバーレスワークフロー
-- 視覚的なワークフロー定義
-- 他のAWSサービスとの連携
+## AWS
+
+### Step Functions
+
+- サーバーレスワークフロー
+- Workflow Studio による視覚的な設計
+- リトライ・エラーハンドリング機能
+- dbt とかも動かせる
+
+### Amazon Managed Workflows for Apache Airflow (MWAA)
+
+- フルマネージド Apache Airflow
+- Python で DAG を柔軟に記述
+- 自動スケーリング対応
+- Airflow エコシステムをそのまま活用
+
+<style>
+h2 {
+  margin-bottom: 1rem;
+}
+h3 {
+    margin-block: 1rem;
+}
+</style>
 
 ---
 
-## Amazon Managed Workflows for Apache Airflow
+## Snowflake
 
-- フルマネージドAirflow
-
----
-
-## Snowflake Task
+### Task
 
 - Snowflake ネイティブのスケジューラー
 - SQL でワークフロー定義
