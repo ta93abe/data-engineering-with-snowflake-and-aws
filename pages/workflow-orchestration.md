@@ -73,11 +73,11 @@ h3 {
 
 ## Managed Services
 
-- **TROCCO** - データ統合プラットフォーム
-- **Apache Airflow** - 最も有名なワークフローエンジン
-- **Dagster** - データアセット中心の設計
-- **Prefect** - モダンなPythonワークフロー
-- **Kestra** - 宣言的ワークフロー
+- **[TROCCO](https://trocco.io/)** - データ統合プラットフォーム
+- **[Apache Airflow](https://airflow.apache.org/)** - 最も有名なワークフローエンジン
+- **[Dagster](https://dagster.io/)** - データアセット中心の設計
+- **[Prefect](https://www.prefect.io/)** - モダンなPythonワークフロー
+- **[Kestra](https://kestra.io/)** - 宣言的ワークフロー
 
 <style>
 h2 {
