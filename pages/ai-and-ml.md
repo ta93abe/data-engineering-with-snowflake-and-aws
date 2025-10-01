@@ -31,6 +31,13 @@ AI/ML機能を統合したプラットフォーム
 
 Snowflake 標準 SQL で使える関数群
 
+- ai_complete
+- ai_extract
+- ai_agg
+- join on ai_filter
+- ai_filter
+- ai_classify
+
 例えばこんな感じ
 
 ````md magic-move
@@ -73,14 +80,33 @@ h3 {
 }
 </style>
 
+
 ---
 
-## 機械学習のプラットフォームを選ぶ
+## Snowpark ML
 
-どこで ML パイプラインを構築するか
+- **ANOMALY_DETECTION**: 異常検知（不正検知、システム監視）
+- **CLASSIFICATION**: 分類モデル（顧客セグメント、チャーン予測）
+- **FORECAST**: 時系列予測（需要予測、売上予測）
 
-- **AWS SageMaker**: 豊富な ML サービス群、スケーラブルなインフラ
-- **Snowflake Snowpark ML**: データとモデルが同じ場所、SQL での機械学習
+データの移動なしでモデル構築が可能
+
+```sql
+CREATE OR REPLACE SNOWFLAKE.ML.FORECAST sales_forecast(
+  INPUT_DATA => SYSTEM$REFERENCE('TABLE', 'sales_data'),
+  TIMESTAMP_COLNAME => 'date',
+  TARGET_COLNAME => 'amount'
+);
+```
+
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
 
 ---
 
@@ -93,40 +119,32 @@ h3 {
 - **モデルトレーニング**: 分散学習、スポットインスタンス活用
 - **モデルデプロイ**: リアルタイム推論エンドポイント、バッチ変換
 
-### その他の AI サービス
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
+
+---
+
+## AWS の AI サービス
 
 - **Amazon Bedrock**: 基盤モデル(Claude, Llama等)の利用
 - **Amazon Comprehend**: 自然言語処理（感情分析、エンティティ抽出）
 - **Amazon Rekognition**: 画像・動画分析
 - **Amazon Textract**: ドキュメントからのテキスト抽出
 
----
-
-## Snowflake での ML/AI ワークロード
-
-### Snowpark ML
-
-- **ANOMALY_DETECTION**: 異常検知（不正検知、システム監視）
-- **CLASSIFICATION**: 分類モデル（顧客セグメント、チャーン予測）
-- **FORECAST**: 時系列予測（需要予測、売上予測）
-
-### Cortex LLM Functions
-
-- **COMPLETE**: テキスト生成・補完
-- **SENTIMENT**: 感情分析
-- **SUMMARIZE**: テキスト要約
-- **TRANSLATE**: 多言語翻訳
-- **EXTRACT_ANSWER**: 質問応答
-
-データの移動なしでモデル構築・推論が可能
-
-```sql
-CREATE OR REPLACE SNOWFLAKE.ML.FORECAST sales_forecast(
-  INPUT_DATA => SYSTEM$REFERENCE('TABLE', 'sales_data'),
-  TIMESTAMP_COLNAME => 'date',
-  TARGET_COLNAME => 'amount'
-);
-```
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
 
 ---
 
@@ -140,3 +158,12 @@ CREATE OR REPLACE SNOWFLAKE.ML.FORECAST sales_forecast(
 | 画像・動画分析 | Rekognition ⭐ | - |
 | SQL ベースの AI | - | Cortex ⭐ |
 | データ統合型 ML | - | Snowpark ML ⭐ |
+
+<style>
+h2 {
+    margin-bottom: 1rem;
+}
+h3 {
+    margin-bottom: 1rem;
+}
+</style>
