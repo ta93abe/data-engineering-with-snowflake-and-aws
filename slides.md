@@ -17,9 +17,7 @@ routerMode: hash
 base: /data-engineering-with-snowflake-and-aws/
 ---
 
-# SnowflakeとAWSではじめる
-
-# データエンジニアリング
+# SnowflakeとAWSではじめる<br>データエンジニアリング
 
 株式会社USEN ICT Solutions 阿部拓海
 
@@ -86,6 +84,10 @@ src: ./pages/machine-learning.md
 
 ---
 src: ./pages/ai-features.md
+---
+
+---
+src: ./pages/data-engineer-working.md
 ---
 
 ---
