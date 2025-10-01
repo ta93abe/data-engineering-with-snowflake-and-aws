@@ -43,11 +43,11 @@ Snowflake 標準 SQL で使える関数群
 ````md magic-move
 ```sql
 select *
-from my_table
+from notes
 ```
 ```sql
 select *
-from my_table
+from notes
 where ai_filter(prompt('Find rows where the description indicates a positive sentiment'))
 ```
 ````
